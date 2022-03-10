@@ -2,7 +2,7 @@ import numpy as np
 
 
 def area_circ(r_in):
-    """Calculates the area of a circle with given radius. LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONG LINE AND SO ON
+    """Calculates the area of a circle with given radius.
 
     :Input: The radius of the circle (float, >=0).
     :Returns: The area of the circle (float)."""
@@ -12,4 +12,3 @@ def area_circ(r_in):
     print("The area of a circle with radius r = {:3.2f}cm\
         is A = {:4.2f}cm2.".format(r_in, area_out))
     return area_out
-
